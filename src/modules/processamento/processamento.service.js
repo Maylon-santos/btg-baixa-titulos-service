@@ -14,40 +14,55 @@ const STATUS = require('./processamento.status');
 function gerarResumo(processamentoId, resultados, erroGeral = null) {
   return {
     processamentoId,
+
     total: resultados.length,
-    sucesso: resultados.filter((r) => r.status === STATUS.SUCESSO).length,
-    erros: resultados.filter((r) => r.status !== STATUS.SUCESSO).length,
+
+    sucesso: resultados.filter(
+      (r) => r.status === STATUS.SUCESSO
+    ).length,
+
+    jaBaixados: resultados.filter(
+      (r) => r.status === STATUS.JA_BAIXADO
+    ).length,
+
+    erros: resultados.filter(
+      (r) =>
+        r.status !== STATUS.SUCESSO &&
+        r.status !== STATUS.JA_BAIXADO
+    ).length,
+
     erroGeral,
+
     finalizadoEm: new Date().toISOString()
   };
 }
 
 function salvarResultado(processamentoId, resultados, resumo) {
-    const outputDir = path.resolve(
-      'storage',
-      'processamentos',
-      processamentoId
-    );
-  
-    const errosProcessamento = resultados.filter(
-      (item) => item.status !== STATUS.SUCESSO
-    );
-  
-    writeJson(
-      path.join(outputDir, 'resultado-processamento.json'),
-      resultados
-    );
-  
-    writeJson(
-      path.join(outputDir, 'resumo-processamento.json'),
-      resumo
-    );
-  
-    writeJson(
-      path.join(outputDir, 'erros-processamento.json'),
-      errosProcessamento
-    );
-  }
+  const outputDir = path.resolve(
+    'storage',
+    'processamentos',
+    processamentoId
+  );
+
+  const errosProcessamento = resultados.filter(
+    (item) => item.status !== STATUS.SUCESSO
+  );
+
+  writeJson(
+    path.join(outputDir, 'resultado-processamento.json'),
+    resultados
+  );
+
+  writeJson(
+    path.join(outputDir, 'resumo-processamento.json'),
+    resumo
+  );
+
+  writeJson(
+    path.join(outputDir, 'erros-processamento.json'),
+    errosProcessamento
+  );
+}
 
 async function processarTitulos(processamentoId, titulos = []) {
   const resultados = [];
@@ -66,6 +81,27 @@ async function processarTitulos(processamentoId, titulos = []) {
 
         const lancamento = await consultaService.consultarTitulo(titulo);
         resultado.consulta = lancamento;
+
+        if (lancamento.situacao === 'BAIXADO') {
+          resultado.status = STATUS.JA_BAIXADO;
+
+          resultado.erro = null;
+
+          logger.info(
+            `ℹ️ Título ${titulo.numeroDocumento} já estava baixado. Processo ignorado.`,
+            {
+              lancamento: lancamento.lancamento,
+              situacao: lancamento.situacao
+            }
+          );
+
+          resultados.push(resultado);
+
+          const resumoParcial = gerarResumo(processamentoId, resultados);
+          salvarResultado(processamentoId, resultados, resumoParcial);
+
+          continue;
+        }
 
         const atualizacao = await atualizacaoService.atualizarTitulo(
           titulo,

@@ -1,5 +1,7 @@
-module.exports = {
+  module.exports = {
     SUCESSO: 'SUCESSO',
+  
+    JA_BAIXADO: 'JA_BAIXADO',
   
     ERRO_CONSULTA: 'ERRO_CONSULTA',
   
