@@ -1,9 +1,14 @@
-const { v4: uuidv4 } = require('uuid');
+const crypto = require('crypto');
 
 function generateProcessamentoId() {
   const date = new Date().toISOString().split('T')[0].replace(/-/g, '');
 
-  return `BTG-${date}-${uuidv4().slice(0, 6).toUpperCase()}`;
+  const randomId = crypto
+    .randomBytes(3)
+    .toString('hex')
+    .toUpperCase();
+
+  return `BTG-${date}-${randomId}`;
 }
 
 module.exports = generateProcessamentoId;

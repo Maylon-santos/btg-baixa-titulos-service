@@ -1,5 +1,10 @@
 const planilhaService = require('./planilha.service');
 
+
+const processamentoService = require(
+  '../processamento/processamento.service'
+);
+
 async function processar(req, res) {
   try {
     if (!req.file) {
@@ -9,12 +14,28 @@ async function processar(req, res) {
       });
     }
 
-    const resultado = await planilhaService.processarPlanilha(req.file.path);
+    const resultadoPlanilha =
+      await planilhaService.processarPlanilha(
+        req.file.path
+      );
+
+    const processamento =
+      await processamentoService.processarTitulos(
+        resultadoPlanilha.processamentoId,
+        resultadoPlanilha.processaveis
+      );
 
     return res.status(200).json({
       success: true,
-      ...resultado
+
+      processamentoId:
+        resultadoPlanilha.processamentoId,
+
+      planilha: resultadoPlanilha,
+
+      processamento
     });
+
   } catch (error) {
     return res.status(500).json({
       success: false,

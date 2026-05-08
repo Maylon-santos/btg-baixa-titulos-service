@@ -73,3 +73,21 @@
 {"lancamento":1434927655,"level":"info","message":"💰 Iniciando baixa do título FRE 122429","payload":{"CONCILIADO":true,"CONTA":1431333535,"DATA_PAGAMENTO":"29/04/2026","EFETUADO":true,"FILIAL":5,"GERA_OUTRO":false,"LANCAMENTO":1434927655,"OBS":"2026-05-08T05:52:15.063Z - Baixa por retorno automacao importacao excel","STATUS_BAIXA":"N","VALOR":397.93},"service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:52:15.064Z"}
 {"level":"info","message":"🌐 Millennium request: POST /millenium/titulos/baixa","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:52:15.065Z"}
 {"baixa":1435951765,"level":"info","message":"✅ Título baixado com sucesso","numeroDocumento":"FRE 122429","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:52:16.704Z","valor":397.93}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-08T06:08:24.095Z"}
+{"level":"info","message":"🔐 Iniciando login no Millennium","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T06:08:29.736Z"}
+{"level":"info","message":"✅ Login Millennium realizado com sucesso","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T06:08:29.807Z"}
+{"level":"info","message":"🚀 Iniciando processamento de 11 títulos","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T06:08:29.807Z"}
+{"level":"info","message":"🔎 Processando título FRE 122429","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T06:08:29.807Z"}
+{"level":"info","message":"🌐 Millennium request: GET /MILLENIUM!JOIN_ONEUP.LANCAMENTOS.CONSULTALANCAMENTOS?cnpj=57.408.548%2F0001-92&n_documento=FRE%20122429","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T06:08:29.808Z"}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-08T06:08:30.109Z"}
+{"level":"info","message":"🔐 Iniciando login no Millennium","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T06:08:49.890Z"}
+{"level":"info","message":"✅ Login Millennium realizado com sucesso","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T06:08:49.964Z"}
+{"level":"info","message":"🚀 Iniciando processamento de 11 títulos","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T06:08:49.965Z"}
+{"level":"info","message":"🔎 Processando título FRE 122429","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T06:08:49.965Z"}
+{"level":"info","message":"🌐 Millennium request: GET /MILLENIUM!JOIN_ONEUP.LANCAMENTOS.CONSULTALANCAMENTOS?cnpj=57.408.548%2F0001-92&n_documento=FRE%20122429","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T06:08:49.965Z"}
+{"lancamento":1434927655,"level":"info","message":"📝 Atualizando título FRE 122429","payload":{"lancamento":1434927655,"linhaDigitavel":"20890050091742604612848031005803714310000039793","nossoNumero":"30175674260461248","valorJuros":0},"service":"btg-baixa-titulos-service","timestamp":"2026-05-08T06:08:49.998Z"}
+{"level":"info","message":"🌐 Millennium request: POST /MILLENIUM!JOIN_ONEUP.LANCAMENTOS.INSEREINFO","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T06:08:49.999Z"}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-08T06:08:50.279Z"}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-08T06:09:07.142Z"}
+{"level":"info","message":"🔐 Iniciando login no Millennium","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T06:09:10.568Z"}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-08T06:09:10.961Z"}
