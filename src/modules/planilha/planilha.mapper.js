@@ -1,4 +1,5 @@
 const sanitizeDocument = require('../../shared/utils/sanitizeDocument');
+const normalizeDate = require('../../shared/utils/normalizeDate');
 
 function toNumber(value, defaultValue = 0) {
   if (value === null || value === undefined || value === '') {
@@ -46,9 +47,13 @@ function mapLinha(row) {
 
     juros: toNullableNumber(row.juros),
 
-    dataPagamento: row.data_pagamento || null,
-
-    dataLiquidacao: row.data_liquidacao || null
+    dataPagamento: normalizeDate(
+      row.data_pagamento
+    ),
+    
+    dataLiquidacao: normalizeDate(
+      row.data_liquidacao
+    )
   };
 }
 
