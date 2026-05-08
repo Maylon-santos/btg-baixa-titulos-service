@@ -23,22 +23,31 @@ function gerarResumo(processamentoId, resultados, erroGeral = null) {
 }
 
 function salvarResultado(processamentoId, resultados, resumo) {
-  const outputDir = path.resolve(
-    'storage',
-    'processamentos',
-    processamentoId
-  );
-
-  writeJson(
-    path.join(outputDir, 'resultado-processamento.json'),
-    resultados
-  );
-
-  writeJson(
-    path.join(outputDir, 'resumo-processamento.json'),
-    resumo
-  );
-}
+    const outputDir = path.resolve(
+      'storage',
+      'processamentos',
+      processamentoId
+    );
+  
+    const errosProcessamento = resultados.filter(
+      (item) => item.status !== STATUS.SUCESSO
+    );
+  
+    writeJson(
+      path.join(outputDir, 'resultado-processamento.json'),
+      resultados
+    );
+  
+    writeJson(
+      path.join(outputDir, 'resumo-processamento.json'),
+      resumo
+    );
+  
+    writeJson(
+      path.join(outputDir, 'erros-processamento.json'),
+      errosProcessamento
+    );
+  }
 
 async function processarTitulos(processamentoId, titulos = []) {
   const resultados = [];
