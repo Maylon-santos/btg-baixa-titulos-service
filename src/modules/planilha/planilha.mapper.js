@@ -1,5 +1,35 @@
 const sanitizeDocument = require('../../shared/utils/sanitizeDocument');
 
+function toNumber(value, defaultValue = 0) {
+  if (value === null || value === undefined || value === '') {
+    return defaultValue;
+  }
+
+  if (typeof value === 'number') {
+    return Number.isNaN(value) ? defaultValue : value;
+  }
+
+  const normalized = String(value)
+    .replace('R$', '')
+    .replace(/\./g, '')
+    .replace(',', '.')
+    .trim();
+
+  const parsed = Number(normalized);
+
+  return Number.isNaN(parsed) ? defaultValue : parsed;
+}
+
+function toNullableNumber(value) {
+  if (value === null || value === undefined || value === '') {
+    return null;
+  }
+
+  const parsed = toNumber(value, null);
+
+  return Number.isNaN(parsed) ? null : parsed;
+}
+
 function mapLinha(row) {
   return {
     numeroDocumento: String(row.numero_documento || '').trim(),
@@ -12,9 +42,9 @@ function mapLinha(row) {
 
     linhaDigitavel: String(row.linha_digitavel || '').trim(),
 
-    valorPago: Number(row.valor_pago || 0),
+    valorPago: toNumber(row.valor_pago, 0),
 
-    juros: row.juros ? Number(row.juros) : null,
+    juros: toNullableNumber(row.juros),
 
     dataPagamento: row.data_pagamento || null,
 

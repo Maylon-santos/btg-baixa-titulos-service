@@ -1,6 +1,7 @@
 const XLSX = require('xlsx');
 
-const normalizeHeader = require('../../shared/utils/normalizeHeader');
+
+const { normalizeRowHeaders } = require('./planilha.header-normalizer');
 const generateProcessamentoId = require('../../shared/utils/generateProcessamentoId');
 
 const mapLinha = require('./planilha.mapper');
@@ -13,15 +14,7 @@ async function processarPlanilha(filePath) {
 
   const rows = XLSX.utils.sheet_to_json(firstSheet);
 
-  const normalizedRows = rows.map((row) => {
-    const normalized = {};
-
-    Object.entries(row).forEach(([key, value]) => {
-      normalized[normalizeHeader(key)] = value;
-    });
-
-    return normalized;
-  });
+  const normalizedRows = rows.map(normalizeRowHeaders);
 
   const titulos = normalizedRows.map(mapLinha);
 
