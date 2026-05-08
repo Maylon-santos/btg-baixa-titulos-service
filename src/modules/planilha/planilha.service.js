@@ -1,6 +1,6 @@
+const path = require('path');
+const { writeJson, copyFile } = require('../../shared/utils/fileStorage');
 const XLSX = require('xlsx');
-
-
 const { normalizeRowHeaders } = require('./planilha.header-normalizer');
 const generateProcessamentoId = require('../../shared/utils/generateProcessamentoId');
 
@@ -28,25 +28,35 @@ async function processarPlanilha(filePath) {
     (item) => !item.cpfCnpj.startsWith('48047765')
   );
 
-  return {
-    processamentoId: generateProcessamentoId(),
+  const processamentoId = generateProcessamentoId();
 
-    totalLinhas: rows.length,
+const baseDir = path.resolve(
+  'storage',
+  'processamentos',
+  processamentoId
+);
 
-    totalValidos: validacao.validos.length,
+const resumo = {
+  processamentoId,
+  totalLinhas: rows.length,
+  totalValidos: validacao.validos.length,
+  totalErros: validacao.erros.length,
+  totalFranquias: franquias.length,
+  totalProcessaveis: processaveis.length
+};
 
-    totalErros: validacao.erros.length,
+copyFile(filePath, path.join(baseDir, 'original.xlsx'));
+writeJson(path.join(baseDir, 'resumo.json'), resumo);
+writeJson(path.join(baseDir, 'franquias.json'), franquias);
+writeJson(path.join(baseDir, 'processaveis.json'), processaveis);
+writeJson(path.join(baseDir, 'erros.json'), validacao.erros);
 
-    totalFranquias: franquias.length,
-
-    totalProcessaveis: processaveis.length,
-
-    franquias,
-
-    processaveis,
-
-    erros: validacao.erros
-  };
+return {
+  ...resumo,
+  franquias,
+  processaveis,
+  erros: validacao.erros
+};
 }
 
 module.exports = {
