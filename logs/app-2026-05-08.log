@@ -33,3 +33,43 @@
 {"level":"info","message":"✅ Login Millennium realizado com sucesso","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:06:36.680Z"}
 {"level":"info","message":"🔒 Finalizando sessão Millennium","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:06:36.680Z"}
 {"level":"info","message":"✅ Sessão Millennium finalizada com sucesso","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:06:36.695Z"}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:14:51.067Z"}
+{"level":"info","message":"🔐 Iniciando login no Millennium","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:15:03.680Z"}
+{"level":"info","message":"✅ Login Millennium realizado com sucesso","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:15:03.765Z"}
+{"level":"info","message":"🌐 Millennium request: GET /MILLENIUM!JOIN_ONEUP.LANCAMENTOS.CONSULTALANCAMENTOS?cnpj=57408548000192&n_documento=FRE+122429","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:15:03.766Z"}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:21:54.585Z"}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:22:01.230Z"}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:22:25.605Z"}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:22:27.717Z"}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:22:29.383Z"}
+{"level":"info","message":"🔐 Iniciando login no Millennium","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:22:46.371Z"}
+{"level":"info","message":"✅ Login Millennium realizado com sucesso","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:22:46.457Z"}
+{"level":"info","message":"🌐 Millennium request: GET /MILLENIUM!JOIN_ONEUP.LANCAMENTOS.CONSULTALANCAMENTOS?cnpj=57.408.548%2F0001-92&n_documento=FRE%20122429","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:22:46.458Z"}
+{"level":"info","message":"🌐 Millennium request: GET /MILLENIUM!JOIN_ONEUP.LANCAMENTOS.CONSULTALANCAMENTOS?cnpj=57.408.548%2F0001-92&n_documento=FRE%20122429","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:23:10.994Z"}
+{"level":"info","message":"🌐 Millennium request: GET /MILLENIUM!JOIN_ONEUP.LANCAMENTOS.CONSULTALANCAMENTOS?cnpj=57.408.548%2F0001-92&n_documento=FRE%20122429","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:24:59.015Z"}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:33:02.272Z"}
+{"lancamento":1434927655,"level":"info","message":"📝 Atualizando título FRE 122429","payload":{"lancamento":1434927655,"linhaDigitavel":"20890050091742604612848031005803714310000039793","nossoNumero":"30175674260461248","valorJuros":0.04},"service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:35:40.891Z"}
+{"level":"info","message":"🔐 Iniciando login no Millennium","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:35:40.893Z"}
+{"level":"info","message":"✅ Login Millennium realizado com sucesso","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:35:41.813Z"}
+{"level":"info","message":"🌐 Millennium request: POST /MILLENIUM!JOIN_ONEUP.LANCAMENTOS.INSEREINFO","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:35:41.814Z"}
+{"lancamento":1434927655,"level":"info","message":"✅ Título atualizado com sucesso","numeroDocumento":"FRE 122429","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:35:41.898Z","transId":340323298}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:44:07.289Z"}
+{"lancamento":1434927655,"level":"info","message":"💰 Iniciando baixa do título FRE 122429","payload":{"CONCILIADO":true,"CONTA":1431333535,"DATA_PAGAMENTO":"29/04/2026","EFETUADO":true,"FILIAL":5,"GERA_OUTRO":false,"LANCAMENTO":1434927655,"OBS":"2026-05-08T05:44:09.425Z - Baixa por retorno automacao importacao excel","STATUS_BAIXA":"N","VALOR":397.93},"service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:44:09.426Z"}
+{"level":"info","message":"🔐 Iniciando login no Millennium","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:44:09.426Z"}
+{"level":"info","message":"✅ Login Millennium realizado com sucesso","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:44:09.576Z"}
+{"level":"info","message":"🌐 Millennium request: POST /millenium/titulos/baixa","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:44:09.577Z"}
+{"data":{"error":{"code":400,"message":{"lang":"en-us","value":"Remote Call Error:(millenium.titulos.baixa) (EwtsMethodError) \r\nErro baixando lançamento. O lançamento n. FRE 122429 já está efetuado."}}},"level":"error","message":"❌ Erro na requisição Millennium Request failed with status code 400","method":"POST","service":"btg-baixa-titulos-service","status":400,"timestamp":"2026-05-08T05:44:10.710Z","url":"/millenium/titulos/baixa"}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:51:22.220Z"}
+{"level":"info","message":"🔐 Iniciando login no Millennium","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:51:36.024Z"}
+{"level":"info","message":"✅ Login Millennium realizado com sucesso","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:51:36.112Z"}
+{"level":"info","message":"🔒 Finalizando sessão Millennium","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:51:36.113Z"}
+{"level":"info","message":"✅ Sessão Millennium finalizada com sucesso","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:51:36.215Z"}
+{"level":"info","message":"🔐 Iniciando login no Millennium","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:51:41.169Z"}
+{"level":"info","message":"✅ Login Millennium realizado com sucesso","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:51:41.208Z"}
+{"level":"info","message":"🌐 Millennium request: GET /MILLENIUM!JOIN_ONEUP.LANCAMENTOS.CONSULTALANCAMENTOS?cnpj=57.408.548%2F0001-92&n_documento=FRE%20122429","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:51:41.209Z"}
+{"lancamento":1434927655,"level":"info","message":"📝 Atualizando título FRE 122429","payload":{"lancamento":1434927655,"linhaDigitavel":"20890050091742604612848031005803714310000039793","nossoNumero":"30175674260461248","valorJuros":0.04},"service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:51:58.770Z"}
+{"level":"info","message":"🌐 Millennium request: POST /MILLENIUM!JOIN_ONEUP.LANCAMENTOS.INSEREINFO","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:51:58.773Z"}
+{"lancamento":1434927655,"level":"info","message":"✅ Título atualizado com sucesso","numeroDocumento":"FRE 122429","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:51:58.878Z","transId":340323302}
+{"lancamento":1434927655,"level":"info","message":"💰 Iniciando baixa do título FRE 122429","payload":{"CONCILIADO":true,"CONTA":1431333535,"DATA_PAGAMENTO":"29/04/2026","EFETUADO":true,"FILIAL":5,"GERA_OUTRO":false,"LANCAMENTO":1434927655,"OBS":"2026-05-08T05:52:15.063Z - Baixa por retorno automacao importacao excel","STATUS_BAIXA":"N","VALOR":397.93},"service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:52:15.064Z"}
+{"level":"info","message":"🌐 Millennium request: POST /millenium/titulos/baixa","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:52:15.065Z"}
+{"baixa":1435951765,"level":"info","message":"✅ Título baixado com sucesso","numeroDocumento":"FRE 122429","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T05:52:16.704Z","valor":397.93}
