@@ -91,3 +91,7 @@
 {"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-08T06:09:07.142Z"}
 {"level":"info","message":"🔐 Iniciando login no Millennium","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T06:09:10.568Z"}
 {"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-08T06:09:10.961Z"}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-08T06:12:50.431Z"}
+{"level":"info","message":"🔐 Iniciando login no Millennium","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T06:12:52.850Z"}
+{"level":"info","message":"ℹ️ Nenhuma sessão Millennium ativa para finalizar","service":"btg-baixa-titulos-service","timestamp":"2026-05-08T06:13:22.867Z"}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-08T06:18:21.023Z"}

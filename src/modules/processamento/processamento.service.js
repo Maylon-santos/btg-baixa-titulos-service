@@ -1,162 +1,127 @@
 const path = require('path');
 
 const logger = require('../../shared/logger/logger');
+const { writeJson } = require('../../shared/utils/fileStorage');
 
-const {
-  writeJson
-} = require('../../shared/utils/fileStorage');
+const millenniumAuthService = require('../millennium/millennium.auth.service');
+const consultaService = require('../millennium/millennium.consulta.service');
+const atualizacaoService = require('../millennium/millennium.atualizacao.service');
+const baixaService = require('../baixa/baixa.service');
 
-const millenniumAuthService = require(
-  '../millennium/millennium.auth.service'
-);
-
-const consultaService = require(
-  '../millennium/millennium.consulta.service'
-);
-
-const atualizacaoService = require(
-  '../millennium/millennium.atualizacao.service'
-);
-
-const baixaService = require(
-  '../baixa/baixa.service'
-);
-
-const {
-  createResultadoBase
-} = require('./processamento.resultado');
-
+const { createResultadoBase } = require('./processamento.resultado');
 const STATUS = require('./processamento.status');
 
-async function processarTitulos(
-  processamentoId,
-  titulos = []
-) {
+function gerarResumo(processamentoId, resultados, erroGeral = null) {
+  return {
+    processamentoId,
+    total: resultados.length,
+    sucesso: resultados.filter((r) => r.status === STATUS.SUCESSO).length,
+    erros: resultados.filter((r) => r.status !== STATUS.SUCESSO).length,
+    erroGeral,
+    finalizadoEm: new Date().toISOString()
+  };
+}
+
+function salvarResultado(processamentoId, resultados, resumo) {
+  const outputDir = path.resolve(
+    'storage',
+    'processamentos',
+    processamentoId
+  );
+
+  writeJson(
+    path.join(outputDir, 'resultado-processamento.json'),
+    resultados
+  );
+
+  writeJson(
+    path.join(outputDir, 'resumo-processamento.json'),
+    resumo
+  );
+}
+
+async function processarTitulos(processamentoId, titulos = []) {
   const resultados = [];
+  let erroGeral = null;
 
   try {
     await millenniumAuthService.login();
 
-    logger.info(
-      `🚀 Iniciando processamento de ${titulos.length} títulos`
-    );
+    logger.info(`🚀 Iniciando processamento de ${titulos.length} títulos`);
 
     for (const titulo of titulos) {
-      const resultado =
-        createResultadoBase(titulo);
+      const resultado = createResultadoBase(titulo);
 
       try {
-        logger.info(
-          `🔎 Processando título ${titulo.numeroDocumento}`
-        );
+        logger.info(`🔎 Processando título ${titulo.numeroDocumento}`);
 
-        // CONSULTA
-        const lancamento =
-          await consultaService.consultarTitulo(
-            titulo
-          );
-
+        const lancamento = await consultaService.consultarTitulo(titulo);
         resultado.consulta = lancamento;
 
-        // ATUALIZAÇÃO
-        const atualizacao =
-          await atualizacaoService.atualizarTitulo(
-            titulo,
-            lancamento
-          );
-
+        const atualizacao = await atualizacaoService.atualizarTitulo(
+          titulo,
+          lancamento
+        );
         resultado.atualizacao = atualizacao;
 
-        // BAIXA
-        const baixa =
-          await baixaService.baixarTitulo(
-            titulo,
-            lancamento
-          );
-
+        const baixa = await baixaService.baixarTitulo(titulo, lancamento);
         resultado.baixa = baixa;
 
         resultado.status = STATUS.SUCESSO;
 
-        logger.info(
-          `✅ Fluxo concluído para ${titulo.numeroDocumento}`
-        );
+        logger.info(`✅ Fluxo concluído para ${titulo.numeroDocumento}`);
       } catch (error) {
         resultado.erro = error.message;
 
-        logger.error(
-          `❌ Erro no processamento do título ${titulo.numeroDocumento}`,
-          {
-            erro: error.message
-          }
-        );
-
         if (
           error.message.includes('não localizado') ||
-          error.message.includes('Mais de um lançamento')
+          error.message.includes('Mais de um lançamento') ||
+          error.message.includes('Divergência de valor')
         ) {
-          resultado.status =
-            STATUS.ERRO_CONSULTA;
-        } else if (
-          error.message.includes('atualização')
-        ) {
-          resultado.status =
-            STATUS.ERRO_ATUALIZACAO;
-        } else if (
-          error.message.includes('Baixa')
-        ) {
-          resultado.status =
-            STATUS.ERRO_BAIXA;
+          resultado.status = STATUS.ERRO_CONSULTA;
+        } else if (error.message.toLowerCase().includes('atualiza')) {
+          resultado.status = STATUS.ERRO_ATUALIZACAO;
+        } else if (error.message.toLowerCase().includes('baixa')) {
+          resultado.status = STATUS.ERRO_BAIXA;
         } else {
-          resultado.status =
-            STATUS.ERRO_DESCONHECIDO;
+          resultado.status = STATUS.ERRO_DESCONHECIDO;
         }
+
+        logger.error(`❌ Erro no título ${titulo.numeroDocumento}`, {
+          status: resultado.status,
+          erro: error.message
+        });
       }
 
       resultados.push(resultado);
+
+      const resumoParcial = gerarResumo(processamentoId, resultados);
+      salvarResultado(processamentoId, resultados, resumoParcial);
     }
+  } catch (error) {
+    erroGeral = error.message;
 
-    const resumo = {
+    logger.error('❌ Erro geral no processamento', {
       processamentoId,
-
-      total: resultados.length,
-
-      sucesso: resultados.filter(
-        (r) => r.status === STATUS.SUCESSO
-      ).length,
-
-      erros: resultados.filter(
-        (r) => r.status !== STATUS.SUCESSO
-      ).length
-    };
-
-    const outputDir = path.resolve(
-      'storage',
-      'processamentos',
-      processamentoId
-    );
-
-    writeJson(
-      path.join(outputDir, 'resultado-processamento.json'),
-      resultados
-    );
-
-    writeJson(
-      path.join(outputDir, 'resumo-processamento.json'),
-      resumo
-    );
-
-    logger.info(
-      `🏁 Processamento finalizado`,
-      resumo
-    );
-
-    return {
-      resumo,
-      resultados
-    };
+      erro: error.message
+    });
   } finally {
     await millenniumAuthService.finalizarSessao();
+
+    const resumoFinal = gerarResumo(
+      processamentoId,
+      resultados,
+      erroGeral
+    );
+
+    salvarResultado(processamentoId, resultados, resumoFinal);
+
+    logger.info('🏁 Processamento finalizado', resumoFinal);
+
+    return {
+      resumo: resumoFinal,
+      resultados
+    };
   }
 }
 
