@@ -37,7 +37,7 @@ function roundMoney(value) {
     }
   
     const diasAtraso = diffInDays(
-      titulo.vencimento,
+      lancamento.dataVencimento,
       titulo.dataPagamento || titulo.dataLiquidacao
     );
   

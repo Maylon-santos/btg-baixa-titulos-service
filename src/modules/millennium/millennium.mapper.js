@@ -1,31 +1,30 @@
-  
-  function mapLancamento(data) {
-    return {
-      lancamento: data.lancamento,
-      filial: data.filial,
-      conta: data.conta,
-  
-      clienteCodigo: data.cod_cliente,
-      clienteNome: data.nome,
-  
-      cnpj: String(data.cnpj || '').trim(),
-  
-      valorInicial: Number(data.valor_inicial || 0),
-  
-      transId: data.trans_id,
-  
-      situacao: String(data.situacao || '')
-        .trim()
-        .toUpperCase(),
-  
-      mora: Number(data.mora || 0)
-    };
-  }
-  
-  module.exports = {
-    mapLancamento
+const parseODataDate = require('../../shared/utils/parseODataDate');
+
+function mapLancamento(data) {
+  return {
+    lancamento: data.lancamento,
+    filial: data.filial,
+    conta: data.conta,
+
+    clienteCodigo: data.cod_cliente,
+    clienteNome: data.nome,
+
+    cnpj: String(data.cnpj || '').trim(),
+
+    valorInicial: Number(data.valor_inicial || 0),
+
+    transId: data.trans_id,
+
+    situacao: String(data.situacao || '')
+      .trim()
+      .toUpperCase(),
+
+    mora: Number(data.mora || 0),
+
+    dataVencimento: parseODataDate(data.data_vencimento)
   };
-  
-  module.exports = {
-    mapLancamento
-  };
+}
+
+module.exports = {
+  mapLancamento
+};
