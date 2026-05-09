@@ -24,6 +24,10 @@ async function baixarTitulo(titulo, lancamento) {
     }
   );
 
+  logger.info('📅 Payload da baixa', {
+    dataPagamento: payload.DATA_PAGAMENTO
+  });
+
   const response = await millenniumClient.request({
     method: 'POST',
     url: '/millenium/titulos/baixa',

@@ -1,6 +1,7 @@
 const sanitizeDocument = require('../../shared/utils/sanitizeDocument');
 const normalizeDate = require('../../shared/utils/normalizeDate');
 
+
 function toNumber(value, defaultValue = 0) {
   if (value === null || value === undefined || value === '') {
     return defaultValue;
