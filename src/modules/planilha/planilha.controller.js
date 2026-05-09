@@ -1,9 +1,11 @@
 const planilhaService = require('./planilha.service');
+const relatorioService = require('../relatorios/relatorio.service');
 
 
 const processamentoService = require(
   '../processamento/processamento.service'
 );
+
 
 async function processar(req, res) {
   try {
@@ -24,6 +26,11 @@ async function processar(req, res) {
         resultadoPlanilha.processamentoId,
         resultadoPlanilha.processaveis
       );
+    const relatorios = relatorioService.gerarRelatorios({
+      processamentoId: resultadoPlanilha.processamentoId,
+      resultados: processamento.resultados,
+      franquias: resultadoPlanilha.franquias
+    });
 
     return res.status(200).json({
       success: true,
@@ -33,7 +40,9 @@ async function processar(req, res) {
 
       planilha: resultadoPlanilha,
 
-      processamento
+      processamento,
+
+      relatorios
     });
 
   } catch (error) {
@@ -43,6 +52,8 @@ async function processar(req, res) {
     });
   }
 }
+
+
 
 module.exports = {
   processar

@@ -1,0 +1,13 @@
+[
+  {
+    "numeroDocumento": "CORRE 121668",
+    "cpfCnpj": "21067137000133",
+    "cliente": "SEMENSATO & SEMENSATO LTDA - EPP",
+    "nossoNumero": "79101727810454307",
+    "linhaDigitavel": "20890050091278104543507031005809914310000002323",
+    "valorPago": 23.38,
+    "juros": null,
+    "dataPagamento": "2026-05-04",
+    "dataLiquidacao": "2026-05-05"
+  }
+]
