@@ -7,6 +7,16 @@ const processamentoService = require(
 );
 
 
+const path = require('path');
+
+const whatsappService = require('../whatsapp/whatsapp.service');
+
+const {
+  buildResumoMessage
+} = require('../whatsapp/whatsapp.message');
+
+
+
 async function processar(req, res) {
   try {
     if (!req.file) {
@@ -31,6 +41,24 @@ async function processar(req, res) {
       resultados: processamento.resultados,
       franquias: resultadoPlanilha.franquias
     });
+
+    const mensagem = buildResumoMessage({
+      processamentoId: resultadoPlanilha.processamentoId,
+      dashboard: relatorios.dashboard
+    });
+    
+    await whatsappService.enviarTexto(mensagem);
+    
+    if (relatorios.dashboard.erros > 0) {
+      const errosFile = path.resolve(
+        'storage',
+        'processamentos',
+        resultadoPlanilha.processamentoId,
+        'relatorio-erros.xlsx'
+      );
+    
+      await whatsappService.enviarArquivo(errosFile);
+    }
 
     return res.status(200).json({
       success: true,

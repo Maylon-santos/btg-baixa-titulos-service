@@ -21,6 +21,13 @@ const env = {
     toleranciaValor: Number(
       process.env.VALOR_TOLERANCIA || 0.5
     )
+  },
+  whatsapp: {
+    enabled: process.env.WHATSAPP_ENABLED === 'true',
+    apiUrl: process.env.WHATSAPP_API_URL,
+    token: process.env.WHATSAPP_TOKEN,
+    number: process.env.WHATSAPP_NUMBER,
+    sendFiles: process.env.WHATSAPP_SEND_FILES === 'true'
   }
 };
 
