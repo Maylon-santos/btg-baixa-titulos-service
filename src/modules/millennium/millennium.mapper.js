@@ -6,7 +6,6 @@
       conta: data.conta,
   
       clienteCodigo: data.cod_cliente,
-  
       clienteNome: data.nome,
   
       cnpj: String(data.cnpj || '').trim(),
@@ -17,9 +16,15 @@
   
       situacao: String(data.situacao || '')
         .trim()
-        .toUpperCase()
+        .toUpperCase(),
+  
+      mora: Number(data.mora || 0)
     };
   }
+  
+  module.exports = {
+    mapLancamento
+  };
   
   module.exports = {
     mapLancamento
