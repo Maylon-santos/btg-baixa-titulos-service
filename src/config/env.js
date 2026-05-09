@@ -16,6 +16,11 @@ const env = {
     authorization: process.env.MILLENNIUM_AUTHORIZATION,
     licenseType: process.env.MILLENNIUM_LICENSE_TYPE || 'api',
     timeoutMs: Number(process.env.MILLENNIUM_TIMEOUT_MS || 30000)
+  },
+  financeiro: {
+    toleranciaValor: Number(
+      process.env.VALOR_TOLERANCIA || 0.5
+    )
   }
 };
 
