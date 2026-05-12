@@ -1,27 +1,31 @@
+function roundMoney(value) {
+  return Math.round((Number(value || 0) + Number.EPSILON) * 100) / 100;
+}
+
 function resolveDataPagamento(titulo) {
-  return (
-    titulo.dataPagamento ||
-    titulo.dataLiquidacao ||
-    null
-  );
+  return titulo.dataPagamento || titulo.dataLiquidacao || null;
+}
+
+function calcularAcresDecres(titulo, lancamento) {
+  const valorPago = roundMoney(titulo.valorPago);
+  const valorInicial = roundMoney(lancamento.valorInicial);
+
+  const diferenca = roundMoney(valorPago - valorInicial);
+
+  return diferenca > 0 ? diferenca : 0;
 }
 
 function buildBaixaPayload(titulo, lancamento) {
-  const dataPagamento =
-    resolveDataPagamento(titulo);
+  const dataPagamento = resolveDataPagamento(titulo);
 
   if (!dataPagamento) {
     throw new Error(
       `Título ${titulo.numeroDocumento} sem data de pagamento`
     );
   }
-  function resolveDataPagamento(titulo) {
-    return (
-      titulo.dataPagamento ||
-      titulo.dataLiquidacao ||
-      null
-    );
-  }
+
+  const valorPago = roundMoney(titulo.valorPago);
+  const acresDecres = calcularAcresDecres(titulo, lancamento);
 
   return {
     LANCAMENTO: lancamento.lancamento,
@@ -38,11 +42,15 @@ function buildBaixaPayload(titulo, lancamento) {
 
     STATUS_BAIXA: 'N',
 
-    VALOR: Number(titulo.valorPago || 0),
+    VALOR: valorPago,
+
+    valor_pago: valorPago,
 
     CONTA: lancamento.conta,
 
-    FILIAL: lancamento.filial
+    FILIAL: lancamento.filial,
+
+    acres_decres: acresDecres
   };
 }
 
