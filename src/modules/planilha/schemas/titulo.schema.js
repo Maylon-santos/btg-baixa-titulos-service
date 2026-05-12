@@ -9,6 +9,8 @@ const tituloSchema = z.object({
 
   linhaDigitavel: z.string().min(10),
 
+  valorTitulo: z.number(),
+
   valorPago: z.number(),
 
   juros: z.number().nullable(),

@@ -1,84 +1,107 @@
 const env = require('../../config/env');
 
 function roundMoney(value) {
-  return Math.round((Number(value) + Number.EPSILON) * 100) / 100;
+  return Math.round((Number(value || 0) + Number.EPSILON) * 100) / 100;
 }
 
-function diffInDays(dateStart, dateEnd) {
-  if (!dateStart || !dateEnd) {
-    return 0;
-  }
-
-  const start = new Date(`${dateStart}T00:00:00`);
-  const end = new Date(`${dateEnd}T00:00:00`);
-
-  const diffMs = end.getTime() - start.getTime();
-
-  return Math.max(0, Math.floor(diffMs / 86400000));
+function getTolerancia() {
+  return env.financeiro?.toleranciaValor || 0.02;
 }
 
 function validarValorComMora(titulo, lancamento) {
+  const tolerancia = getTolerancia();
+
+  const valorTituloPlanilha = roundMoney(titulo.valorTitulo);
   const valorPago = roundMoney(titulo.valorPago);
   const valorInicial = roundMoney(lancamento.valorInicial);
 
-  const tolerancia =
-    env.financeiro.toleranciaValor;
+  const diferencaTitulo = roundMoney(
+    valorTituloPlanilha - valorInicial
+  );
 
-  const diferencaSemMora = Math.abs(valorPago - valorInicial);
+  const valorAcrescimo = roundMoney(
+    valorPago - valorInicial
+  );
 
-  if (diferencaSemMora <= tolerancia) {
+  const valorTituloConfere =
+    Math.abs(diferencaTitulo) <= tolerancia;
+
+  if (!valorTituloConfere) {
     return {
-      valido: true,
-      tipo: 'VALOR_EXATO',
-      valorPago,
+      valido: false,
+      tipo: 'DIVERGENCIA_VALOR_TITULO',
+
+      tolerancia,
+
+      valorTituloPlanilha,
       valorInicial,
-      valorMora: 0,
-      valorEsperado: valorInicial,
-      diferenca: roundMoney(valorPago - valorInicial),
-      diasAtraso: 0
+      valorPago,
+
+      valorAcrescimo,
+      diferenca: diferencaTitulo,
+
+      mensagem:
+        'Valor do título na planilha diverge do valor inicial retornado pelo Millennium'
     };
   }
 
-  const diasAtraso = diffInDays(
-    lancamento.dataVencimento,
-    titulo.dataPagamento || titulo.dataLiquidacao
-  );
+  if (valorPago < valorInicial - tolerancia) {
+    return {
+      valido: false,
+      tipo: 'VALOR_PAGO_MENOR_QUE_TITULO',
 
-  const percentualMoraDia = Number(lancamento.mora || 0);
+      tolerancia,
 
-  const valorMora = roundMoney(
-    valorInicial * (percentualMoraDia / 100) * diasAtraso
-  );
+      valorTituloPlanilha,
+      valorInicial,
+      valorPago,
 
-  const valorEsperado = roundMoney(valorInicial + valorMora);
+      valorAcrescimo,
+      diferenca: roundMoney(valorPago - valorInicial),
 
-  const diferencaComMora = Math.abs(valorPago - valorEsperado);
+      mensagem:
+        'Valor pago na planilha é menor que o valor inicial do título'
+    };
+  }
 
-  if (diferencaComMora <= tolerancia) {
+  if (valorAcrescimo > tolerancia) {
     return {
       valido: true,
-      tipo: 'VALOR_COM_MORA',
-      valorPago,
+      tipo: 'VALOR_COM_ACRESCIMO',
+
+      tolerancia,
+
+      valorTituloPlanilha,
       valorInicial,
-      valorMora,
-      valorEsperado,
-      diferenca: roundMoney(valorPago - valorEsperado),
-      diasAtraso
+      valorPago,
+
+      valorAcrescimo,
+      diferenca: diferencaTitulo,
+
+      mensagem:
+        'Valor do título confere e valor pago possui acréscimo'
     };
   }
 
   return {
-    valido: false,
-    tipo: 'DIVERGENCIA_VALOR',
-    valorPago,
+    valido: true,
+    tipo: 'VALOR_EXATO',
+
+    tolerancia,
+
+    valorTituloPlanilha,
     valorInicial,
-    valorMora,
-    valorEsperado,
-    diferenca: roundMoney(valorPago - valorEsperado),
-    diasAtraso
+    valorPago,
+
+    valorAcrescimo: 0,
+    diferenca: diferencaTitulo,
+
+    mensagem:
+      'Valor do título confere com o valor inicial retornado pelo Millennium'
   };
 }
 
 module.exports = {
-  validarValorComMora
+  validarValorComMora,
+  roundMoney
 };

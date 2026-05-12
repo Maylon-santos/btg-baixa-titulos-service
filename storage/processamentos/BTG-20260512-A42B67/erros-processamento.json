@@ -1,0 +1,13 @@
+[
+  {
+    "numeroDocumento": "117845/B",
+    "cpfCnpj": "03294992000103",
+    "cliente": "ONLY MEN COMERCIO DE CONFECCOES LTDA EPP",
+    "valorPago": 7182.01,
+    "status": "ERRO_CONSULTA",
+    "erro": "Divergência de valor no título 117845/B",
+    "consulta": null,
+    "atualizacao": null,
+    "baixa": null
+  }
+]

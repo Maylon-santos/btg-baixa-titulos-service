@@ -2,6 +2,7 @@ const sanitizeDocument = require('../../shared/utils/sanitizeDocument');
 const normalizeDate = require('../../shared/utils/normalizeDate');
 
 
+
 function toNumber(value, defaultValue = 0) {
   if (value === null || value === undefined || value === '') {
     return defaultValue;
@@ -43,6 +44,8 @@ function mapLinha(row) {
     nossoNumero: String(row.nosso_numero || '').trim(),
 
     linhaDigitavel: String(row.linha_digitavel || '').trim(),
+
+    valorTitulo: toNumber(row.valor_titulo, 0),
 
     valorPago: toNumber(row.valor_pago, 0),
 

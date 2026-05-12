@@ -45,5 +45,10 @@ module.exports = {
   juros: [
     'juros',
     'valor_juros'
+  ],
+  valor_titulo: [
+    'valor_r',
+    'valor',
+    'valor_rs'
   ]
 };

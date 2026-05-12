@@ -1,1 +1,23 @@
 {"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-12T01:50:20.423Z"}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-12T01:54:44.945Z"}
+{"level":"info","message":"🔐 Iniciando login no Millennium","service":"btg-baixa-titulos-service","timestamp":"2026-05-12T01:55:08.177Z"}
+{"level":"info","message":"✅ Login Millennium realizado com sucesso","service":"btg-baixa-titulos-service","timestamp":"2026-05-12T01:55:08.834Z"}
+{"level":"info","message":"🚀 Iniciando processamento de 1 títulos","service":"btg-baixa-titulos-service","timestamp":"2026-05-12T01:55:08.835Z"}
+{"level":"info","message":"🔎 Processando título 117845/B","service":"btg-baixa-titulos-service","timestamp":"2026-05-12T01:55:08.835Z"}
+{"level":"info","message":"🌐 Millennium request: GET /MILLENIUM!JOIN_ONEUP.LANCAMENTOS.CONSULTALANCAMENTOS?cnpj=03.294.992%2F0001-03&n_documento=117845%2FB","service":"btg-baixa-titulos-service","timestamp":"2026-05-12T01:55:08.836Z"}
+{"erro":"Divergência de valor no título 117845/B","level":"error","message":"❌ Erro no título 117845/B","service":"btg-baixa-titulos-service","status":"ERRO_CONSULTA","timestamp":"2026-05-12T01:55:09.033Z"}
+{"level":"info","message":"🔒 Finalizando sessão Millennium","service":"btg-baixa-titulos-service","timestamp":"2026-05-12T01:55:09.037Z"}
+{"level":"info","message":"✅ Sessão Millennium finalizada com sucesso","service":"btg-baixa-titulos-service","timestamp":"2026-05-12T01:55:09.248Z"}
+{"erroGeral":null,"erros":1,"finalizadoEm":"2026-05-12T01:55:09.248Z","jaBaixados":0,"level":"info","message":"🏁 Processamento finalizado","processamentoId":"BTG-20260512-A42B67","service":"btg-baixa-titulos-service","sucesso":0,"timestamp":"2026-05-12T01:55:09.249Z","total":1}
+{"level":"info","message":"📲 Enviando resumo por WhatsApp","service":"btg-baixa-titulos-service","timestamp":"2026-05-12T01:55:09.257Z"}
+{"level":"info","message":"✅ Resumo enviado por WhatsApp","response":{"companyId":1,"filaId":1024,"message":"Mensagem enviada a fila de transmissão com sucesso","schedule":"2026-05-12T01:56:09.976Z"},"service":"btg-baixa-titulos-service","timestamp":"2026-05-12T01:55:11.184Z"}
+{"level":"info","message":"ℹ️ Envio de arquivos WhatsApp desabilitado","service":"btg-baixa-titulos-service","timestamp":"2026-05-12T01:55:11.186Z"}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-12T02:07:27.983Z"}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-12T02:07:28.463Z"}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-12T02:07:30.477Z"}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-12T02:08:20.288Z"}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-12T02:08:59.626Z"}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-12T02:09:03.087Z"}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-12T02:10:08.928Z"}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-12T02:14:20.878Z"}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-12T02:14:22.521Z"}
