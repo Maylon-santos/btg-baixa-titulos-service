@@ -81,12 +81,10 @@ async function processarTitulos(processamentoId, titulos = []) {
 
         const lancamento = await consultaService.consultarTitulo(titulo);
         resultado.consulta = lancamento;
-
+        
         if (lancamento.situacao === 'BAIXADO') {
           resultado.status = STATUS.JA_BAIXADO;
-
-          resultado.erro = null;
-
+        
           logger.info(
             `ℹ️ Título ${titulo.numeroDocumento} já estava baixado. Processo ignorado.`,
             {
@@ -94,14 +92,14 @@ async function processarTitulos(processamentoId, titulos = []) {
               situacao: lancamento.situacao
             }
           );
-
+        
           resultados.push(resultado);
-
+        
           const resumoParcial = gerarResumo(processamentoId, resultados);
           salvarResultado(processamentoId, resultados, resumoParcial);
-
+        
           continue;
-        }
+        }ƒ
 
         const atualizacao = await atualizacaoService.atualizarTitulo(
           titulo,

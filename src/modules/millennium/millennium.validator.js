@@ -17,6 +17,25 @@ function validarConsultaTitulo(titulo, lancamentos = []) {
 
   const lancamento = lancamentos[0];
 
+  const situacao = String(lancamento.situacao || '')
+    .trim()
+    .toUpperCase();
+
+  /**
+   * Importante:
+   * Se o título já está baixado, não validamos valor.
+   * Apenas retornamos para o processamento marcar como JA_BAIXADO.
+   */
+  if (situacao === 'BAIXADO') {
+    lancamento.validacaoValor = {
+      valido: true,
+      tipo: 'IGNORADO_TITULO_JA_BAIXADO',
+      mensagem: 'Título já baixado no Millennium; validação de valor ignorada'
+    };
+
+    return lancamento;
+  }
+
   const validacaoValor = validarValorComMora(titulo, lancamento);
 
   lancamento.validacaoValor = validacaoValor;
