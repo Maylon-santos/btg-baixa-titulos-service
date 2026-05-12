@@ -15,38 +15,33 @@ function validarValorComMora(titulo, lancamento) {
   const valorPago = roundMoney(titulo.valorPago);
   const valorInicial = roundMoney(lancamento.valorInicial);
 
-  const diferencaTitulo = roundMoney(
-    valorTituloPlanilha - valorInicial
-  );
+  const diferencaTitulo = roundMoney(valorTituloPlanilha - valorInicial);
+  const valorAcrescimo = roundMoney(valorPago - valorInicial);
 
-  const valorAcrescimo = roundMoney(
-    valorPago - valorInicial
-  );
-
-  console.log('DEBUG VALOR', {
-    numeroDocumento: titulo.numeroDocumento,
-    valorTitulo: titulo.valorTitulo,
-    valorPago: titulo.valorPago,
-    valorInicial: lancamento.valorInicial
-  });
-  
-  const valorTituloConfere =
-    Math.abs(diferencaTitulo) <= tolerancia;
-
-  if (!valorTituloConfere) {
+  if (valorPago <= 0) {
     return {
       valido: false,
-      tipo: 'DIVERGENCIA_VALOR_TITULO',
-
+      tipo: 'VALOR_PAGO_NAO_INFORMADO',
       tolerancia,
-
       valorTituloPlanilha,
       valorInicial,
       valorPago,
+      valorAcrescimo: 0,
+      diferenca: 0,
+      mensagem: 'Valor pago não foi informado na planilha'
+    };
+  }
 
+  if (Math.abs(diferencaTitulo) > tolerancia) {
+    return {
+      valido: false,
+      tipo: 'DIVERGENCIA_VALOR_TITULO',
+      tolerancia,
+      valorTituloPlanilha,
+      valorInicial,
+      valorPago,
       valorAcrescimo,
       diferenca: diferencaTitulo,
-
       mensagem:
         'Valor do título na planilha diverge do valor inicial retornado pelo Millennium'
     };
@@ -56,16 +51,12 @@ function validarValorComMora(titulo, lancamento) {
     return {
       valido: false,
       tipo: 'VALOR_PAGO_MENOR_QUE_TITULO',
-
       tolerancia,
-
       valorTituloPlanilha,
       valorInicial,
       valorPago,
-
       valorAcrescimo,
       diferenca: roundMoney(valorPago - valorInicial),
-
       mensagem:
         'Valor pago na planilha é menor que o valor inicial do título'
     };
@@ -75,16 +66,12 @@ function validarValorComMora(titulo, lancamento) {
     return {
       valido: true,
       tipo: 'VALOR_COM_ACRESCIMO',
-
       tolerancia,
-
       valorTituloPlanilha,
       valorInicial,
       valorPago,
-
       valorAcrescimo,
       diferenca: diferencaTitulo,
-
       mensagem:
         'Valor do título confere e valor pago possui acréscimo'
     };
@@ -93,16 +80,12 @@ function validarValorComMora(titulo, lancamento) {
   return {
     valido: true,
     tipo: 'VALOR_EXATO',
-
     tolerancia,
-
     valorTituloPlanilha,
     valorInicial,
     valorPago,
-
     valorAcrescimo: 0,
     diferenca: diferencaTitulo,
-
     mensagem:
       'Valor do título confere com o valor inicial retornado pelo Millennium'
   };

@@ -42,7 +42,7 @@ function validarConsultaTitulo(titulo, lancamentos = []) {
 
   if (!validacaoValor.valido) {
     throw new Error(
-      `Divergência de valor no título ${titulo.numeroDocumento}`
+      `${validacaoValor.tipo}: ${titulo.numeroDocumento} - ${validacaoValor.mensagem}`
     );
   }
 
