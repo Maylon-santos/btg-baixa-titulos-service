@@ -3,6 +3,8 @@ function mapResultadoParaRelatorio(item) {
       numeroDocumento: item.numeroDocumento,
       cpfCnpj: item.cpfCnpj,
       cliente: item.cliente,
+
+      valorTitulo: item.valorTitulo,
       valorPago: item.valorPago,
       status: item.status,
       erro: item.erro || '',

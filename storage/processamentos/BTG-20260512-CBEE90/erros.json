@@ -1,0 +1,4237 @@
+[
+  {
+    "linha": 1,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 2,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 3,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 4,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 5,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 6,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 7,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 8,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 9,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 10,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 11,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 12,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 13,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 14,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 15,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 16,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 17,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 18,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 19,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 20,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 21,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 22,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 23,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 24,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 25,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 26,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 27,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 28,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 29,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 30,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 31,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 32,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 33,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 34,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 35,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 36,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 37,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 38,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 39,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 40,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 41,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 42,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 43,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 44,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 45,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 46,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 47,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 48,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 49,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 50,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 51,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 52,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 53,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 54,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 55,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 56,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 57,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 58,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 59,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 60,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 61,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 62,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 63,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 64,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 65,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 66,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 67,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 68,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 69,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 70,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 71,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 72,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 73,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 74,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 75,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 76,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  },
+  {
+    "linha": 77,
+    "erros": [
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "numeroDocumento"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 11,
+        "inclusive": true,
+        "path": [
+          "cpfCnpj"
+        ],
+        "message": "Too small: expected string to have >=11 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "cliente"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 1,
+        "inclusive": true,
+        "path": [
+          "nossoNumero"
+        ],
+        "message": "Too small: expected string to have >=1 characters"
+      },
+      {
+        "origin": "string",
+        "code": "too_small",
+        "minimum": 10,
+        "inclusive": true,
+        "path": [
+          "linhaDigitavel"
+        ],
+        "message": "Too small: expected string to have >=10 characters"
+      }
+    ]
+  }
+]
