@@ -8,7 +8,7 @@ const {
 
 
 function buildConsultaUrl(titulo) {
-  const documento = String(titulo.cpfCnpj || '').replace(/\D/g, ''); ƒƒ
+  const documento = String(titulo.cpfCnpj || '').replace(/\D/g, '');
 
   const numeroDocumento = encodeURIComponent(titulo.numeroDocumento);
 

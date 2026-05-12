@@ -23,6 +23,13 @@ function validarValorComMora(titulo, lancamento) {
     valorPago - valorInicial
   );
 
+  console.log('DEBUG VALOR', {
+    numeroDocumento: titulo.numeroDocumento,
+    valorTitulo: titulo.valorTitulo,
+    valorPago: titulo.valorPago,
+    valorInicial: lancamento.valorInicial
+  });
+  
   const valorTituloConfere =
     Math.abs(diferencaTitulo) <= tolerancia;
 

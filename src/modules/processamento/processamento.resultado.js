@@ -9,7 +9,6 @@ function createResultadoBase(titulo) {
 
     status: null,
     erro: null,
-
     consulta: null,
     atualizacao: null,
     baixa: null

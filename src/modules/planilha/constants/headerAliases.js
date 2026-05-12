@@ -25,7 +25,11 @@ module.exports = {
   linha_digitavel: [
     'linha_digitavel'
   ],
-
+  valor_titulo: [
+    'valor_r',
+    'valor',
+    'valor_rs'
+  ],
   valor_pago: [
     'valor_pago_r',
     'valor_pago',
@@ -45,10 +49,5 @@ module.exports = {
   juros: [
     'juros',
     'valor_juros'
-  ],
-  valor_titulo: [
-    'valor_r',
-    'valor',
-    'valor_rs'
   ]
 };
