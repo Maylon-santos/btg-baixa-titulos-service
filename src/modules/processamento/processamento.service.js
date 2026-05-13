@@ -99,7 +99,7 @@ async function processarTitulos(processamentoId, titulos = []) {
           salvarResultado(processamentoId, resultados, resumoParcial);
         
           continue;
-        }ƒ
+        }
 
         const atualizacao = await atualizacaoService.atualizarTitulo(
           titulo,
