@@ -1999,3 +1999,4 @@
 {"level":"info","message":"📲 Enviando resumo por WhatsApp","service":"btg-baixa-titulos-service","timestamp":"2026-05-13T14:45:56.840Z"}
 {"level":"info","message":"✅ Resumo enviado por WhatsApp","response":{"companyId":1,"filaId":1051,"message":"Mensagem enviada a fila de transmissão com sucesso","schedule":"2026-05-13T14:46:57.562Z"},"service":"btg-baixa-titulos-service","timestamp":"2026-05-13T14:45:58.690Z"}
 {"level":"info","message":"ℹ️ Envio de arquivos WhatsApp desabilitado","service":"btg-baixa-titulos-service","timestamp":"2026-05-13T14:45:58.691Z"}
+{"level":"info","logDetailed":false,"message":"🚀 Servidor iniciado com sucesso na porta 3333","nodeEnv":"development","port":3333,"service":"btg-baixa-titulos-service","timestamp":"2026-05-13T15:16:41.839Z"}
