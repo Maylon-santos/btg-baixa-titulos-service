@@ -315,3 +315,40 @@ tr:hover {
     grid-template-columns: 1fr;
   }
 }
+.kpi-grid {
+  display: grid;
+  gap: 14px;
+  margin-bottom: 18px;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.kpi-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px;
+  box-shadow: var(--shadow);
+}
+
+.kpi-card span {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.kpi-card strong {
+  font-size: 24px;
+}
+
+@media (max-width: 1100px) {
+  .kpi-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .kpi-grid {
+    grid-template-columns: 1fr;
+  }
+}

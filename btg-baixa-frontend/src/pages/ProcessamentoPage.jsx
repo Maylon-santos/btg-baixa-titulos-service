@@ -5,6 +5,8 @@ import UploadPlanilha from "../components/UploadPlanilha";
 import DashboardResumo from "../components/DashboardResumo";
 import ResultadoTabela from "../components/ResultadoTabela";
 import ProcessingOverlay from "../components/ProcessingOverlay";
+import KpiCards from "../components/KpiCards";
+import ResultadoChart from "../components/ResultadoChart";
 
 export default function ProcessamentoPage() {
   const [loading, setLoading] = useState(false);
@@ -54,6 +56,9 @@ export default function ProcessamentoPage() {
       </p>
 
       <UploadPlanilha onSubmit={handleProcessar} loading={loading} />
+       <KpiCards dashboard={resultado?.relatorios?.dashboard} />
+
+      <ResultadoChart dashboard={resultado?.relatorios?.dashboard} />
 
       {erro && <div className="error">{erro}</div>}
 
