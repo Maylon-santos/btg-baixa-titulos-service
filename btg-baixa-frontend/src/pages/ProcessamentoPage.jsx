@@ -1,9 +1,9 @@
-import { useState } from 'react';
+import { useState } from "react";
 
-import { processarPlanilha } from '../api/btgApi';
-import UploadPlanilha from '../components/UploadPlanilha';
-import DashboardResumo from '../components/DashboardResumo';
-import ResultadoTabela from '../components/ResultadoTabela';
+import { processarPlanilha } from "../api/btgApi";
+import UploadPlanilha from "../components/UploadPlanilha";
+import DashboardResumo from "../components/DashboardResumo";
+import ResultadoTabela from "../components/ResultadoTabela";
 
 export default function ProcessamentoPage() {
   const [loading, setLoading] = useState(false);
@@ -23,7 +23,7 @@ export default function ProcessamentoPage() {
       setErro(
         error.response?.data?.message ||
           error.message ||
-          'Erro ao processar planilha'
+          "Erro ao processar planilha"
       );
     } finally {
       setLoading(false);
@@ -33,6 +33,10 @@ export default function ProcessamentoPage() {
   return (
     <main className="container">
       <h1>BTG - Baixa de Títulos</h1>
+      <p className="subtitle">
+        Importe a planilha de retorno bancário, acompanhe o processamento e
+        visualize o relatório final.
+      </p>
 
       <UploadPlanilha onSubmit={handleProcessar} loading={loading} />
 

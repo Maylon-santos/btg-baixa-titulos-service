@@ -1,5 +1,12 @@
 export default function ResultadoTabela({ resultados = [] }) {
     if (!resultados.length) return null;
+
+
+    function getStatusClass(status) {
+      if (status === 'SUCESSO') return 'status-success';
+      if (status === 'JA_BAIXADO') return 'status-warning';
+      return 'status-error';
+    }
   
     return (
       <div className="card">
@@ -25,7 +32,7 @@ export default function ResultadoTabela({ resultados = [] }) {
                   <td>{item.cliente}</td>
                   <td>{item.valorTitulo}</td>
                   <td>{item.valorPago}</td>
-                  <td>{item.status}</td>
+                  <td className={getStatusClass(item.status)}>{item.status}</td>
                   <td>{item.erro || '-'}</td>
                 </tr>
               ))}
