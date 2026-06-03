@@ -1,0 +1,9 @@
+{"erro":"timeout of 60000ms exceeded","level":"error","message":"❌ Erro geral no processamento","processamentoId":"BTG-20260521-4165A1","service":"btg-baixa-titulos-service","timestamp":"2026-05-21T14:43:47.912Z"}
+{"erro":"Título não localizado: CORRE 120558","level":"error","message":"❌ Erro no título CORRE 120558","service":"btg-baixa-titulos-service","status":"ERRO_CONSULTA","timestamp":"2026-05-21T14:48:41.783Z"}
+{"erro":"Título não localizado: 120775","level":"error","message":"❌ Erro no título 120775","service":"btg-baixa-titulos-service","status":"ERRO_CONSULTA","timestamp":"2026-05-21T14:48:41.834Z"}
+{"erro":"Título não localizado: FRE 119328","level":"error","message":"❌ Erro no título FRE 119328","service":"btg-baixa-titulos-service","status":"ERRO_CONSULTA","timestamp":"2026-05-21T14:48:42.008Z"}
+{"erro":"Título não localizado: 109075/C","level":"error","message":"❌ Erro no título 109075/C","service":"btg-baixa-titulos-service","status":"ERRO_CONSULTA","timestamp":"2026-05-21T14:48:57.362Z"}
+{"erro":"Título não localizado: RA-06-11","level":"error","message":"❌ Erro no título RA-06-11","service":"btg-baixa-titulos-service","status":"ERRO_CONSULTA","timestamp":"2026-05-21T14:48:57.390Z"}
+{"erro":"Título não localizado: 01329811","level":"error","message":"❌ Erro no título 01329811","service":"btg-baixa-titulos-service","status":"ERRO_CONSULTA","timestamp":"2026-05-21T14:49:02.782Z"}
+{"erro":"Título não localizado: 06-VL","level":"error","message":"❌ Erro no título 06-VL","service":"btg-baixa-titulos-service","status":"ERRO_CONSULTA","timestamp":"2026-05-21T14:49:02.802Z"}
+{"erro":"Título não localizado: 06-VL","level":"error","message":"❌ Erro no título 06-VL","service":"btg-baixa-titulos-service","status":"ERRO_CONSULTA","timestamp":"2026-05-21T14:49:02.821Z"}
