@@ -4,7 +4,7 @@ import { processarPlanilha } from "../api/btgApi";
 import UploadPlanilha from "../components/UploadPlanilha";
 import DashboardResumo from "../components/DashboardResumo";
 import ResultadoTabela from "../components/ResultadoTabela";
-import ProcessingOverlay from '../components/ProcessingOverlay';
+import ProcessingOverlay from "../components/ProcessingOverlay";
 
 export default function ProcessamentoPage() {
   const [loading, setLoading] = useState(false);
@@ -34,7 +34,20 @@ export default function ProcessamentoPage() {
   return (
     <main className="container">
       <ProcessingOverlay visible={loading} />
-      <h1>BTG - Baixa de Títulos</h1>
+      <div className="topbar">
+        <div className="brand">
+          <div className="brand-badge"></div>
+
+          <div>
+            <h1>BTG - Baixa de Títulos</h1>
+            <p>Importação, conciliação e baixa automática no Millennium</p>
+          </div>
+        </div>
+
+        <button className="btn" type="button">
+          Ambiente Local
+        </button>
+      </div>
       <p className="subtitle">
         Importe a planilha de retorno bancário, acompanhe o processamento e
         visualize o relatório final.
