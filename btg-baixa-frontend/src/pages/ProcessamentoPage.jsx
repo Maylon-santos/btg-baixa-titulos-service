@@ -4,6 +4,7 @@ import { processarPlanilha } from "../api/btgApi";
 import UploadPlanilha from "../components/UploadPlanilha";
 import DashboardResumo from "../components/DashboardResumo";
 import ResultadoTabela from "../components/ResultadoTabela";
+import ProcessingOverlay from '../components/ProcessingOverlay';
 
 export default function ProcessamentoPage() {
   const [loading, setLoading] = useState(false);
@@ -32,6 +33,7 @@ export default function ProcessamentoPage() {
 
   return (
     <main className="container">
+      <ProcessingOverlay visible={loading} />
       <h1>BTG - Baixa de Títulos</h1>
       <p className="subtitle">
         Importe a planilha de retorno bancário, acompanhe o processamento e

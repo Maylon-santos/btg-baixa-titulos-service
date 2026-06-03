@@ -170,3 +170,75 @@ tr:hover {
     grid-template-columns: 1fr;
   }
 }
+.processing-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.45);
+  backdrop-filter: blur(4px);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.processing-card {
+  width: 420px;
+  max-width: calc(100% - 32px);
+  background: #fff;
+  border-radius: 18px;
+  padding: 32px;
+  text-align: center;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.25);
+}
+
+.processing-card h2 {
+  margin: 18px 0 8px;
+}
+
+.processing-card p {
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.spinner {
+  width: 56px;
+  height: 56px;
+  border: 5px solid #dbeafe;
+  border-top-color: var(--primary);
+  border-radius: 50%;
+  margin: 0 auto;
+  animation: spin 0.9s linear infinite;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  margin-top: 22px;
+  background: #e5e7eb;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  width: 45%;
+  background: var(--primary);
+  border-radius: 999px;
+  animation: progressMove 1.2s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes progressMove {
+  0% {
+    transform: translateX(-120%);
+  }
+
+  100% {
+    transform: translateX(260%);
+  }
+}
