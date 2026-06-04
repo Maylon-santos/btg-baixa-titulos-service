@@ -511,3 +511,19 @@ tr:hover {
   display: none !important;
   stroke: transparent !important;
 }
+
+.file-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.btn-sm {
+  padding: 8px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+a.btn {
+  text-decoration: none;
+}

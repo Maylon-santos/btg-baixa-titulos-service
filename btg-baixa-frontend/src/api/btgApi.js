@@ -19,10 +19,28 @@ export async function processarPlanilha(file) {
   return response.data;
 }
 
+export async function listarProcessamentos() {
+  const response = await api.get('/processamentos');
+
+  return response.data.data;
+}
+
+export async function buscarProcessamento(processamentoId) {
+  const response = await api.get(`/processamentos/${processamentoId}`);
+
+  return response.data.data;
+}
+
 export async function buscarStatusProcessamento(processamentoId) {
   const response = await api.get(
     `/processamentos/${processamentoId}/status`
   );
 
   return response.data.data;
+}
+
+export function getDownloadUrl(processamentoId, tipo) {
+  return `${
+    import.meta.env.VITE_API_URL
+  }/processamentos/${processamentoId}/download/${tipo}`;
 }
