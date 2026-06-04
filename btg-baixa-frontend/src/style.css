@@ -408,7 +408,101 @@ tr:hover {
   height: 10px;
   border-radius: 999px;
 }
+.progress-status-card {
+  overflow: hidden;
+}
 
+.progress-status-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
+
+.progress-status-head h2 {
+  margin: 0 0 4px;
+}
+
+.progress-status-head p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.progress-line {
+  width: 100%;
+  height: 12px;
+  background: var(--panel2);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-line-fill {
+  height: 100%;
+  background: linear-gradient(135deg, var(--brand2), var(--brand));
+  border-radius: 999px;
+  transition: width .35s ease;
+}
+
+.progress-percent {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.progress-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.progress-grid div {
+  background: var(--panel2);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 12px;
+}
+
+.progress-grid span {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.progress-grid strong {
+  font-size: 16px;
+}
+
+.status-tag-finalizado {
+  color: var(--success);
+}
+
+.status-tag-processando {
+  color: var(--brand);
+}
+
+.status-tag-erro {
+  color: var(--danger);
+}
+
+@media (max-width: 1000px) {
+  .progress-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .progress-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .progress-status-head {
+    flex-direction: column;
+  }
+}
 
 .chart-card svg line,
 .chart-card svg path.recharts-label-line,

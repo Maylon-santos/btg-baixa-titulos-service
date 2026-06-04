@@ -18,3 +18,11 @@ export async function processarPlanilha(file) {
 
   return response.data;
 }
+
+export async function buscarStatusProcessamento(processamentoId) {
+  const response = await api.get(
+    `/processamentos/${processamentoId}/status`
+  );
+
+  return response.data.data;
+}
