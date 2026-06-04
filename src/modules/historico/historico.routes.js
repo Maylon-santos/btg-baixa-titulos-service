@@ -16,4 +16,8 @@ router.get(
   historicoController.download
 );
 
+router.get(
+  '/processamentos/:processamentoId/status',
+  historicoController.status
+);
 module.exports = router;

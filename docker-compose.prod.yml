@@ -1,0 +1,29 @@
+services:
+  btg-baixa-backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: btg-baixa-backend
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - "127.0.0.1:3334:3333"
+    volumes:
+      - ./storage:/app/storage
+      - ./logs:/app/logs
+    environment:
+      NODE_ENV: production
+
+  btg-baixa-frontend:
+    build:
+      context: ./btg-baixa-frontend
+      dockerfile: Dockerfile
+      args:
+        VITE_API_URL: /api
+    container_name: btg-baixa-frontend
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:18100:80"
+    depends_on:
+      - btg-baixa-backend

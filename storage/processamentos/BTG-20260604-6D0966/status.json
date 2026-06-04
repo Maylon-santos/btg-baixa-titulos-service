@@ -1,0 +1,13 @@
+{
+  "processamentoId": "BTG-20260604-6D0966",
+  "status": "FINALIZADO",
+  "etapa": "FINALIZADO",
+  "total": 746,
+  "processados": 746,
+  "sucesso": 0,
+  "jaBaixados": 738,
+  "erros": 8,
+  "percentual": 100,
+  "mensagem": "Processamento finalizado",
+  "atualizadoEm": "2026-06-04T16:42:38.291Z"
+}

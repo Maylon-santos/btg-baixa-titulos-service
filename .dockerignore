@@ -6,4 +6,6 @@ npm-debug.log
 logs
 storage
 coverage
+btg-baixa-frontend/node_modules
+btg-baixa-frontend/dist
 .DS_Store

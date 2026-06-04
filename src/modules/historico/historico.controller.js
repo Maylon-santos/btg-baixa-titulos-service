@@ -45,9 +45,27 @@ function download(req, res) {
 
   return res.download(filePath);
 }
+function status(req, res) {
+  const { processamentoId } = req.params;
+
+  const data = historicoService.buscarStatus(processamentoId);
+
+  if (!data) {
+    return res.status(404).json({
+      success: false,
+      message: 'Status do processamento não encontrado'
+    });
+  }
+
+  return res.status(200).json({
+    success: true,
+    data
+  });
+}
 
 module.exports = {
   listar,
   buscarPorId,
-  download
+  download,
+  status
 };

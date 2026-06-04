@@ -20,3 +20,4 @@ src/
 mkdir -p src/modules/historico
 
 
+storage/processamentos/{processamentoId}/status.json

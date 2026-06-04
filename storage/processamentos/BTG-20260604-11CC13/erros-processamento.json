@@ -1,0 +1,98 @@
+[
+  {
+    "numeroDocumento": "CORRE 120558",
+    "cpfCnpj": "57408548000192",
+    "cliente": "ONE UP BARIGUI LTDA",
+    "valorTitulo": 155.31,
+    "valorPago": 155.31,
+    "status": "ERRO_CONSULTA",
+    "erro": "Título não localizado: CORRE 120558",
+    "consulta": null,
+    "atualizacao": null,
+    "baixa": null
+  },
+  {
+    "numeroDocumento": "120775",
+    "cpfCnpj": "57408548000192",
+    "cliente": "ONE UP BARIGUI LTDA",
+    "valorTitulo": 42.21,
+    "valorPago": 42.21,
+    "status": "ERRO_CONSULTA",
+    "erro": "Título não localizado: 120775",
+    "consulta": null,
+    "atualizacao": null,
+    "baixa": null
+  },
+  {
+    "numeroDocumento": "FRE 119328",
+    "cpfCnpj": "57408548000192",
+    "cliente": "ONE UP BARIGUI LTDA",
+    "valorTitulo": 671.93,
+    "valorPago": 671.93,
+    "status": "ERRO_CONSULTA",
+    "erro": "Título não localizado: FRE 119328",
+    "consulta": null,
+    "atualizacao": null,
+    "baixa": null
+  },
+  {
+    "numeroDocumento": "109075/C",
+    "cpfCnpj": "01329811000101",
+    "cliente": "BOUTIQUE FLOR DO CAMPO LTDA",
+    "valorTitulo": 19812.29,
+    "valorPago": 19812.29,
+    "status": "ERRO_CONSULTA",
+    "erro": "Título não localizado: 109075/C",
+    "consulta": null,
+    "atualizacao": null,
+    "baixa": null
+  },
+  {
+    "numeroDocumento": "RA-06-11",
+    "cpfCnpj": "01329811000101",
+    "cliente": "BOUTIQUE FLOR DO CAMPO LTDA",
+    "valorTitulo": 5000,
+    "valorPago": 5000,
+    "status": "ERRO_CONSULTA",
+    "erro": "Título não localizado: RA-06-11",
+    "consulta": null,
+    "atualizacao": null,
+    "baixa": null
+  },
+  {
+    "numeroDocumento": "01329811",
+    "cpfCnpj": "01329811000101",
+    "cliente": "Boutique Flor Do Campo Ltda",
+    "valorTitulo": 32057.08,
+    "valorPago": 32057.08,
+    "status": "ERRO_CONSULTA",
+    "erro": "Título não localizado: 01329811",
+    "consulta": null,
+    "atualizacao": null,
+    "baixa": null
+  },
+  {
+    "numeroDocumento": "06-VL",
+    "cpfCnpj": "36854239834",
+    "cliente": "Daicy Helena Rocco Rosato",
+    "valorTitulo": 799,
+    "valorPago": 799,
+    "status": "ERRO_CONSULTA",
+    "erro": "Título não localizado: 06-VL",
+    "consulta": null,
+    "atualizacao": null,
+    "baixa": null
+  },
+  {
+    "numeroDocumento": "06-VL",
+    "cpfCnpj": "36854239834",
+    "cliente": "Daicy Helena Rocco Rosato",
+    "valorTitulo": 799,
+    "valorPago": 799,
+    "status": "ERRO_CONSULTA",
+    "erro": "Título não localizado: 06-VL",
+    "consulta": null,
+    "atualizacao": null,
+    "baixa": null
+  }
+]

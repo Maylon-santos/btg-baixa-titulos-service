@@ -136,8 +136,18 @@ function getArquivoRelatorio(processamentoId, tipo) {
   return filePath;
 }
 
+function buscarStatus(processamentoId) {
+  const dir = path.join(getBaseDir(), processamentoId);
+
+  if (!fs.existsSync(dir)) {
+    return null;
+  }
+
+  return readJsonSafe(path.join(dir, 'status.json'), null);
+}
 module.exports = {
   listarHistorico,
   buscarHistoricoPorId,
-  getArquivoRelatorio
+  getArquivoRelatorio,
+  buscarStatus
 };

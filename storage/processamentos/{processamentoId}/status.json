@@ -1,0 +1,28 @@
+{
+  "processamentoId": "BTG-XXXX",
+
+  "status": "PROCESSANDO",
+
+  "etapa": "CONSULTANDO_TITULO",
+
+  "tituloAtual": "123456/A",
+
+  "total": 746,
+
+  "processados": 120,
+
+  "sucesso": 90,
+
+  "jaBaixados": 20,
+
+  "erros": 10,
+
+  "percentual": 16.08,
+
+  "mensagem": "Consultando título",
+
+  "iniciadoEm": "2026-05-13T12:30:00.000Z",
+
+  "atualizadoEm": "2026-05-13T12:35:15.000Z"
+}
+
