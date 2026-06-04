@@ -1,7 +1,6 @@
 import {
   PieChart,
   Pie,
-  Cell,
   Tooltip,
   Legend,
 } from 'recharts';
@@ -12,14 +11,41 @@ const COLORS = {
   Erros: '#ef4444',
 };
 
+function CustomTooltip({ active, payload }) {
+  if (!active || !payload?.length) {
+    return null;
+  }
+
+  const item = payload[0];
+
+  return (
+    <div className="chart-tooltip">
+      <strong>{item.name}</strong>
+      <span>{item.value}</span>
+    </div>
+  );
+}
+
 export default function ResultadoChart({ dashboard }) {
   if (!dashboard) return null;
 
   const data = [
-    { name: 'Sucesso', value: dashboard.sucesso || 0 },
-    { name: 'Já Baixados', value: dashboard.jaBaixados || 0 },
-    { name: 'Erros', value: dashboard.erros || 0 },
-  ].filter((item) => Number(item.value) > 0);
+    {
+      name: 'Sucesso',
+      value: Number(dashboard.sucesso || 0),
+      fill: COLORS.Sucesso,
+    },
+    {
+      name: 'Já Baixados',
+      value: Number(dashboard.jaBaixados || 0),
+      fill: COLORS['Já Baixados'],
+    },
+    {
+      name: 'Erros',
+      value: Number(dashboard.erros || 0),
+      fill: COLORS.Erros,
+    },
+  ].filter((item) => item.value > 0);
 
   if (!data.length) return null;
 
@@ -36,18 +62,12 @@ export default function ResultadoChart({ dashboard }) {
             cx="50%"
             cy="45%"
             outerRadius={110}
-            label={({ name, value }) => `${name}: ${value}`}
+            label={false}
             labelLine={false}
-          >
-            {data.map((entry) => (
-              <Cell
-                key={entry.name}
-                fill={COLORS[entry.name]}
-              />
-            ))}
-          </Pie>
+            isAnimationActive
+          />
 
-          <Tooltip />
+          <Tooltip content={<CustomTooltip />} />
           <Legend />
         </PieChart>
       </div>
