@@ -363,3 +363,11 @@ tr:hover {
   height: 360px;
   min-height: 360px;
 }
+.chart-fixed-wrapper {
+  width: 100%;
+  min-height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+}
