@@ -47,7 +47,6 @@ body {
   max-width: 1280px;
   margin: 0 auto;
   padding: 28px 18px;
-  overflow-x: visible;
 }
 
 .topbar {
@@ -383,4 +382,38 @@ tr:hover {
 
 .chart-tooltip span {
   color: var(--muted);
+}
+.chart-legend {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: -14px;
+}
+
+.chart-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.chart-legend-item strong {
+  color: var(--text);
+}
+
+.chart-legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+}
+
+
+.chart-card svg line,
+.chart-card svg path.recharts-label-line,
+.chart-card .recharts-pie-label-line,
+.chart-card .recharts-layer.recharts-pie-label-line {
+  display: none !important;
+  stroke: transparent !important;
 }

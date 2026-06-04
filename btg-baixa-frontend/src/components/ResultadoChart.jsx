@@ -1,14 +1,9 @@
-import {
-  PieChart,
-  Pie,
-  Tooltip,
-  Legend,
-} from 'recharts';
+import { PieChart, Pie, Tooltip } from "recharts";
 
 const COLORS = {
-  Sucesso: '#22c55e',
-  'Já Baixados': '#f59e0b',
-  Erros: '#ef4444',
+  Sucesso: "#22c55e",
+  "Já Baixados": "#f59e0b",
+  Erros: "#ef4444",
 };
 
 function CustomTooltip({ active, payload }) {
@@ -31,17 +26,17 @@ export default function ResultadoChart({ dashboard }) {
 
   const data = [
     {
-      name: 'Sucesso',
+      name: "Sucesso",
       value: Number(dashboard.sucesso || 0),
       fill: COLORS.Sucesso,
     },
     {
-      name: 'Já Baixados',
+      name: "Já Baixados",
       value: Number(dashboard.jaBaixados || 0),
-      fill: COLORS['Já Baixados'],
+      fill: COLORS["Já Baixados"],
     },
     {
-      name: 'Erros',
+      name: "Erros",
       value: Number(dashboard.erros || 0),
       fill: COLORS.Erros,
     },
@@ -54,22 +49,34 @@ export default function ResultadoChart({ dashboard }) {
       <h2>Resultado do Processamento</h2>
 
       <div className="chart-fixed-wrapper">
-        <PieChart width={520} height={340}>
+        <PieChart width={520} height={300}>
           <Pie
             data={data}
             dataKey="value"
             nameKey="name"
             cx="50%"
-            cy="45%"
-            outerRadius={110}
+            cy="50%"
+            outerRadius={105}
             label={false}
             labelLine={false}
-            isAnimationActive
+            isAnimationActive={false}
           />
 
           <Tooltip content={<CustomTooltip />} />
-          <Legend />
         </PieChart>
+      </div>
+
+      <div className="chart-legend">
+        {data.map((item) => (
+          <div key={item.name} className="chart-legend-item">
+            <span
+              className="chart-legend-dot"
+              style={{ background: item.fill }}
+            />
+            <span>{item.name}</span>
+            <strong>{item.value}</strong>
+          </div>
+        ))}
       </div>
     </div>
   );
