@@ -1,0 +1,20 @@
+# Ambiente
+.env
+.env.*
+# Anotacoes
+
+# Logs
+logs/
+*.log
+*.gz
+
+# Processamentos
+storage/
+storage/processamentos/
+storage/entrada/
+
+# Dependências
+node_modules/
+
+# Build
+dist/
